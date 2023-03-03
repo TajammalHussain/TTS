@@ -1,0 +1,21 @@
+Rute 1
+UMSIT 33.484415, 73.900791
+Khuiratta Cross 33.490344, 73.895099
+Gulhar Dars 33.495712, 73.892524
+Inter College For Boys 33.498781, 73.894208
+Lal Masjid 33.504516, 73.894208
+Katchari 33.509060, 73.896011
+DHQ 33.513327, 73.898489
+Aabshar Chock 33.514553, 73.899272
+
+Rute 2
+uni 33.484415, 73.900791
+khoirata cross 33.490344, 73.895099
+Punjab College 33.500315, 73.901348
+caltex Petrol station 33.504507, 73.903441
+Roli cross 33.512576, 73.906635
+Exchange Gali 33.517446, 73.906820
+Bus Stand 33.522312, 73.907506
+
+Kotli lat 33.1502, lng 73.7532
+http://maps.googleapis.com/maps/api/directions/xml?origin=33.484415,73.900791&destination=33.514553,73.899272&sensor=false&units=metric&mode=driving

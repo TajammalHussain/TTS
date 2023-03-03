@@ -1,0 +1,34 @@
+domain = http://bustracker.3eeweb.com/
+---------------------------------------
+Database Server domain = mysql.2freehosting.com
+Database Server username = u637985876_root
+Database Server password = bustracker
+Database name = u637985876_mydb
+Table name = bus
+columns  = id, bus_no, password,lat, lng
+
+
+-------------------------------------------------
+-----------web services---
+
+1. Driver Login Service
+http://bustracker.3eeweb.com/login.php?user=AJK111&password=admin&format=json
+Response:
+>>if user name password is correct
+{"login":[{"status":1,"message":"login successfully"}]}
+
+>>if user name password is wrong
+{"login":[{"status":0,"message":"login fail"}]}
+
+
+2. Driver Location Update Service
+http://bustracker.3eeweb.com/update.php?user=AJK333&lat=3.3&lng=3.3&format=json
+Response:
+{"update":[{"status":1,"message":"updated successfully"}]}
+
+
+3. Download all buses Location Service
+http://bustracker.3eeweb.com/buses.php?user=1&format=json
+
+Response:
+{"buses":[{"bus":{"ID":"3","BUS_NO":"AJK333","PASSWORD":"admin","LAT":"3.3","LNG":"3.3"}},{"bus":{"ID":"2","BUS_NO":"AJK222","PASSWORD":"admin","LAT":"2.2","LNG":"2.2"}},{"bus":{"ID":"1","BUS_NO":"AJK111","PASSWORD":"admin","LAT":"1.1","LNG":"1.1"}}]}
